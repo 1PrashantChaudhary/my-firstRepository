@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Baloo Chettan 2", cursive;
+}
+.navbar2 {
+  display: flex;
+  list-style: none;
+  margin: 0px 100px;
+  font-weight: 700;
+}
+.navmain {
+  border-top: 1px solid rgb(189 189 189);
+  border-bottom: 1px solid rgb(189 189 189);
+}
+.navbar2 li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+.navbar2 li {
+  padding: 0px 10px;
+}
+
+.main {
+  /* background-color: rgb(8, 8, 122); */
+  height: 1200px;
+}
+.nav-main {
+  display: flex;
+  background-color: rgb(8, 8, 122);
+  position: sticky;
+  top: 0px;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+  margin: 7px 242px;
+}
+.navbar li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+ .line{
+    background-color:  rgb(233, 33, 33);
+    height: 6px;
+    width: 65px;
+    position: absolute;
+    top: 36px;
+    display: none;
+}
+.line2{
+    background-color: rgb(233, 33, 33);
+    height: 6px;
+    width: 74px;
+    position: absolute;
+    top: 36px;
+    margin-left:69px;
+    display: none;
+}
+.line3{
+background-color:  rgb(233, 33, 33);
+height: 6px;
+width: 145px;
+position: absolute;
+top: 36px;
+margin-left:143px;
+display: none;
+} 
+.line4{
+  background-color: rgb(233, 33, 33);
+  height: 6px;
+  width: 108px;
+  position: absolute;
+  top: 36px;
+  margin-left: 286px; 
+  display: none;
+}  
+.line5{
+  background-color:  rgb(233, 33, 33);
+  height: 6px;
+  width: 144px;
+  position: absolute;
+  top: 36px;
+  margin-left: 391px;
+  display: none;
+} 
+.line6{
+  background-color: rgb(233, 33, 33);
+  height: 6px;
+  width: 118px;
+  position: absolute;
+  top: 36px;
+  margin-left: 531px;
+  display: none;
+} 
+
+.navbar li {
+  padding: 0px 7px;
+}
+.logo {
+   margin-top: -8px; 
+   position:absolute; 
+  transform: skewX(5deg);
+  margin-left: 12px;
+}
+.logo a {
+  font-size: 50px;
+  font-family: fantasy;
+  color: #f1e235;
+  text-shadow: 2px 2px 4px #c92323;
+  text-decoration: none;
+}
+
+
+
