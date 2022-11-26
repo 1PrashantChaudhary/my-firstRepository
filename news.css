@@ -11,6 +11,10 @@ body {
   margin: 0px 100px;
   font-weight: 700;
 }
+/* .main{
+  overflow: hidden;
+
+} */
 .navmain {
   border-top: 1px solid rgb(189 189 189);
   border-bottom: 1px solid rgb(189 189 189);
@@ -18,26 +22,27 @@ body {
 .navbar2 li a {
   text-decoration: none;
   font-size: 20px;
+  color: black;
+  font-weight: 550;
 }
 .navbar2 li {
   padding: 0px 10px;
-}
-
-.main {
-  /* background-color: rgb(8, 8, 122); */
-  height: 1200px;
 }
 .nav-main {
   display: flex;
   background-color: rgb(8, 8, 122);
   position: sticky;
   top: 0px;
+  overflow: hidden;
+  height: 46px;
 }
 
 .navbar {
   display: flex;
   list-style: none;
-  margin: 7px 242px;
+ height: 37px;
+  margin-left: 260px;
+  /* display: none; this is display none by me   */
 }
 .navbar li a {
   font-size: 20px;
@@ -114,6 +119,113 @@ display: none;
   text-shadow: 2px 2px 4px #c92323;
   text-decoration: none;
 }
+
+.unicode{
+  display: flex;
+  margin: 4px 130px;
+  list-style: none;
+  /* display: none; */
+}
+.unicode li {
+  padding: 0px 9px;
+}
+.unicode li a {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
+.search-container {
+  margin-left: 270px;
+  display:flex;
+  display: none;
+  transition: display 3s ;
+}
+.search-container:hover {
+  display: block;
+  display: flex;
+}
+input[type=text]{
+    box-sizing:border-box;
+    height: 30px;
+    border: none;
+    outline: none;
+    width: 867px;
+    margin: 10px 0px;
+    background-color: rgb(8, 8, 122);
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    color: white;
+}
+ .search-bar{
+  background-color:  rgb(8, 8, 122);;
+}
+button[type=submit] {
+  font-size: 25px;
+  border: none;
+  padding: 3px 5px;
+  background-color:  rgb(8, 8, 122);
+  color: white;
+  cursor: pointer;
+}
+.cross {
+  margin: 8px 6px;
+  font-size: 20px;
+}
+.cross a{
+text-decoration: none ;
+}
+.breaking-news {
+  display: flex;
+  text-align: center;
+  margin: 36px 176px;
+  width: 67%;
+  background-color: #d90000;
+  border-radius: 35px;
+  color:white;
+}
+.breaking-news h2{
+  margin-left: 68px;
+  font-size: 23px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+.break{
+  border-right: 2px solid #e86666;
+  margin-left: 16px;
+  margin-top: 6px;
+  height: 21px;
+}
+.title{
+  width: 66%;
+
+}
+.title a{
+  margin: 1px 24px;
+  font-size: 20px; 
+  text-decoration: none;
+  color: white;
+  float: left;
+}
+.cross2{
+  margin: 3px 18px;
+  font-size: 16px;
+}
+.cross2 a{
+  text-decoration: none;
+  color: white; 
+}
+/* .content{
+  display: grid;
+} */
+.down-content {
+position: absolute;
+}
+
+
+
+
+
+
 
 
 
